@@ -19,3 +19,5 @@ This file executes a script that creates a directory named my_first_directory in
 This file executes a script that moves the file betty from /tmp/ to /tmp/my_first_directory
 8-firstdelete
 This file executes a script that deletes the file betty in the /tmp/my_first_directory
+9-firstdirdeletion
+This file executes a script that deletes a directory that is in another directory
