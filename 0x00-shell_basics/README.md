@@ -8,3 +8,8 @@ This file executes a script that changes the working directory to the user's hom
 This file executes a script that displays current directory contents in s longformat
 4-listmorefiles
 This file displays current directory contents, including hidden files (starting with .)using the long format
+5-listfilesdigitonly
+This files displays current directory contents:
+Long format
+with user and group IDs displayed numerically
+and hidden files (starting with .)
