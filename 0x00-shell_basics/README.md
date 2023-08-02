@@ -21,3 +21,5 @@ This file executes a script that moves the file betty from /tmp/ to /tmp/my_firs
 This file executes a script that deletes the file betty in the /tmp/my_first_directory
 9-firstdirdeletion
 This file executes a script that deletes a directory that is in another directory
+10-back
+This file executes a script that changes the working directory to the previous one
