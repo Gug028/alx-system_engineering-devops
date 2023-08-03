@@ -33,3 +33,5 @@ This file creates a symbolic link to /bin/ls _ls_ the symbolic link to be create
 This file executes a script that copies all the HTML files
 100-lets_move
 This file executes a script that moves all files beginning with an uppercase letter to the directory /tmp/u
+101-clean_emacs
+This file executes a script that deletes all files in the current working directory that end with the character ~
