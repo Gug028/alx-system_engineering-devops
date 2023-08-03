@@ -23,3 +23,5 @@ This file executes a script that deletes the file betty in the /tmp/my_first_dir
 This file executes a script that deletes a directory that is in another directory
 10-back
 This file executes a script that changes the working directory to the previous one
+11-lists
+This file lists all files even ones with names beginning with a period character, which are normally hidden in the current directory and the parent of the working directory and the /boot directory in a long format
