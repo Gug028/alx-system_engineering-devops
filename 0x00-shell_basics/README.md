@@ -31,3 +31,5 @@ This file executes  script that prints the type of the file named iamafile in th
 This file creates a symbolic link to /bin/ls _ls_ the symbolic link to be created in the current working directory
 14-copy_html
 This file executes a script that copies all the HTML files
+100-lets_move
+This file executes a script that moves all files beginning with an uppercase letter to the directory /tmp/u
