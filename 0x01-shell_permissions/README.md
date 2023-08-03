@@ -21,4 +21,6 @@ Owner: no permission at all
 Group: no permission at all
 Other users: all the permissions
 9-John_Doe
-This file executes a scipt that sets the mode of the file hello 
+This file executes a scipt that sets the mode of the file hello
+10-mirror_permissions
+This file executes a script that sets the mode of the file hello the same as olleh's mode 
