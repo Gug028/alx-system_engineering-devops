@@ -28,4 +28,4 @@ This file lists all files even ones with names beginning with a period character
 12-file_type
 This file executes  script that prints the type of the file named iamafile in the /tmp directory when we run the script
 13-symbolic_link
-This file creates a symbolic link to /bin/ls _ls_ . The symbolic link to be created in the current working directory
+This file creates a symbolic link to /bin/ls _ls_ the symbolic link to be created in the current working directory
