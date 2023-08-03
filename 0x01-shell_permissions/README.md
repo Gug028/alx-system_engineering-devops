@@ -23,4 +23,6 @@ Other users: all the permissions
 9-John_Doe
 This file executes a scipt that sets the mode of the file hello
 10-mirror_permissions
-This file executes a script that sets the mode of the file hello the same as olleh's mode 
+This file executes a script that sets the mode of the file hello the same as olleh's mode
+11-directories_permissions
+This file executes a script that adds execute permission to all the subdirectories of the current directory for the owner, the group owner and all other users 
