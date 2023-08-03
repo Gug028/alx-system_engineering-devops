@@ -31,4 +31,6 @@ This file executes a script that creates a directory called my_dir with permissi
 13-change_group
 This file executes a script that changes the group owner to school for the file hello
 100-change_owner_and_group
-This file executes a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory 
+This file executes a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+101-symbolic_link_permissions
+This file executes a script that chamges the owner nd the group owner of _hello to vincent and staff respectively 
