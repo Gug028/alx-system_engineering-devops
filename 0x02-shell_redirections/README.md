@@ -45,3 +45,5 @@ This file executes a script that removes all letters c and C from input
 This file executes a script that reverse its input
 22-users_and_homes
 This file executes a script that displays all users and their home directories, sorted by users. based on the /etc/passwd file
+100-empty_casks
+This file writes a command that find all empty files and directories in the current directory and all sub-directories
