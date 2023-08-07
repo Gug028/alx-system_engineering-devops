@@ -47,3 +47,5 @@ This file executes a script that reverse its input
 This file executes a script that displays all users and their home directories, sorted by users. based on the /etc/passwd file
 100-empty_casks
 This file writes a command that find all empty files and directories in the current directory and all sub-directories
+101-gifs
+This file executes a script that lists ll the files with a .gif extension in the current directory and all its sub-directories
