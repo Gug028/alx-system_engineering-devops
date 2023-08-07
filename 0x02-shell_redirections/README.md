@@ -11,3 +11,5 @@ This file displays content of /etc/passwd /etc/hosts
 This file displays the last 10 lines of /etc/passwd
 5-firstlines
 This file displays the first 10 lines of /etc/passwd
+6-third_line
+This file executes a script that displays the third line of the file iacta
