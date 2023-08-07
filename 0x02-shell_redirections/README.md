@@ -31,3 +31,5 @@ This file executes a script that takes a list of words as input and prints only 
 This file displays lines containing the pattern "root" from the file /etc/passwd
 15-countthatword
 This file displays the number of lines that contain the pattern "bin" in the file /etc/passwd
+16-whatsnext
+This file displays lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
