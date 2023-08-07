@@ -9,3 +9,5 @@ This file displays the content of the /etc/passwd file
 This file displays content of /etc/passwd /etc/hosts
 4-lastlines
 This file displays the last 10 lines of /etc/passwd
+5-firstlines
+This file displays the first 10 lines of /etc/passwd
