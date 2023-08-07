@@ -41,3 +41,5 @@ This file displays all lines of the file /etc/ssh/sshd_config starting with a le
 This file replaces all character A and c from input to Z and e respectively
 20-hiago
 This file executes a script that removes all letters c and C from input
+21-reverse
+This file executes a script that reverse its input
