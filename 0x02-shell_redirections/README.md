@@ -25,3 +25,5 @@ This file execute a script that deletes all the regular files (not the directori
 This file executes a script that counts the number of directorires and sub-directories in the current directory
 12-newest_files
 This file executes a script that displays the 10 newest files in the current directory
+13-unique
+This file executes a script that takes a list of words as input and prints only words that appear exactly once
