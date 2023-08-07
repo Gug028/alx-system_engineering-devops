@@ -49,3 +49,5 @@ This file executes a script that displays all users and their home directories, 
 This file writes a command that find all empty files and directories in the current directory and all sub-directories
 101-gifs
 This file executes a script that lists ll the files with a .gif extension in the current directory and all its sub-directories
+102-acrostic
+This files executes a scrpt that decoded acrostics that use the first letter of each line
