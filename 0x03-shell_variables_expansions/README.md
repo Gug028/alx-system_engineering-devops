@@ -33,3 +33,5 @@ This file executes a script that converts a number from base 10 to base 16. THe 
 This file executes a script that encodes and decodes tect using rot13 encryption. Assume ASCII
 102-odd
 This file executes a script that prints every other line from the input, starting with the first line
+103-water_and_stir
+This file executes a shell script that adds two numbers stored in the environment variables WATER and STIR and print the result. WATER is in base water. STIR is in base stir. The result should be in base bestchol
