@@ -29,3 +29,5 @@ This file executes a script that prints all possible combinations of two letters
 This files executes a script that prints a number with two decimal places, followed by a new line. The number will be sorted in the environment variable NUM
 100-decimal_to_hexadecimal
 This file executes a script that converts a number from base 10 to base 16. THe number in base 10 is stored in the environment variable DECIMAL
+101-rot13
+This file executes a script that encodes and decodes tect using rot13 encryption. Assume ASCII
