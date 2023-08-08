@@ -31,3 +31,5 @@ This files executes a script that prints a number with two decimal places, follo
 This file executes a script that converts a number from base 10 to base 16. THe number in base 10 is stored in the environment variable DECIMAL
 101-rot13
 This file executes a script that encodes and decodes tect using rot13 encryption. Assume ASCII
+102-odd
+This file executes a script that prints every other line from the input, starting with the first line
