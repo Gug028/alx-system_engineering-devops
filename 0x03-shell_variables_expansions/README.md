@@ -9,3 +9,5 @@ This files add /action to the PATH. /action shoudl be the last directory the she
 This file executes a script that counts the number of directories in the PATH
 4-global_variables
 This file executes a script that lists environment variables
+5-local_variables
+This file executes a script that lists all local variables and environment variables, and functions
