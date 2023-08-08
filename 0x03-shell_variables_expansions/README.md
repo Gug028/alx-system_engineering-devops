@@ -7,3 +7,5 @@ This file executes a script that prints hello user where user is the current Lin
 This files add /action to the PATH. /action shoudl be the last directory the shell looks into when looking for a program
 3-paths
 This file executes a script that counts the number of directories in the PATH
+4-global_variables
+This file executes a script that lists environment variables
