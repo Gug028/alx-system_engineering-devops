@@ -1,18 +1,35 @@
 #!/usr/bin/env bash
+# It configures your domain zone so that the subdomain www points to
+# your load-balancer IP (lb-01
 
-#shellcheck disable=SC2086
-# Information about server domains
 
-check_domain() {
-    # Check for a valid domain
-    SUBDOMAINS=("www"  "lb-01" "web-01" "web-02")
-    if [ -z "$2" ]; then
-	for i in "${SUBDOMAINS[@]}"; do
-	    dig "$i.$1" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{split($0, SUBDOMAIN, "."); print "The subdomain " SUBDOMAIN[1] " is a " $4 " record and points to " $5}'
-	done
-    else
-	dig "$2.$1" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{split($0, SUBDOMAIN, "."); print "The subdomain " SUBDOMAIN[1] " is a " $4 " record and points to " $5}'
+display_info() {
+    local domain="$1"
+    local subdomain="$2"
+    
+    record_type=$(dig +short -t CNAME "$subdomain.$domain" | awk '{print "CNAME"}')
+    if [ -z "$record_type" ]; then
+        record_type=$(dig +short -t A "$subdomain.$domain" | awk '{print "A"}')
     fi
+    
+    destination=$(dig +short "$subdomain.$domain" | awk '{print $1}')
+    
+    echo "The subdomain $subdomain is a $record_type record and points to $destination"
 }
 
-check_domain "$1" "$2"
+# Main script
+if [ "$#" -eq 1 ]; then
+    domain="$1"
+    subdomains=("www" "lb-01" "web-01" "web-02")
+
+    for subdomain in "${subdomains[@]}"; do
+        display_info "$domain" "$subdomain"
+    done
+elif [ "$#" -eq 2 ]; then
+    domain="$1"
+    subdomain="$2"
+    display_info "$domain" "$subdomain"
+else
+    echo "Usage: $0 <domain> [<subdomain>]"
+    exit 1
+fi
