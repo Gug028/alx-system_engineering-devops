@@ -1,10 +1,15 @@
-# A puppet manuscript to replace a line in a file on a server
+# Fixes the reason for Apache returning 500 error
 
-$file_to_edit = '/var/www/html/wp-settings.php'
+$wpfiles = [ '/var/www/html/.maintenance',
+	  '/var/www/html/wp-content/languages',
+	  '/var/www/html/wp-content/db.php',
+	  '/var/www/html/wp-content/object-cache.php']
 
-#replace line containing "phpp" with "php"
+file { $wpfiles:
+  ensure => 'present',
+}
 
-exec { 'replace_line':
-  command => "sed -i 's/phpp/php/g' ${file_to_edit}",
-  path	  => ['/bin','/usr/bin']
+# copy wp needed from source
+file { '/var/www/html/wp-includes/class-wp-locale.phpp':
+  source => '/var/www/html/wp-includes/class-wp-locale.php'
 }
