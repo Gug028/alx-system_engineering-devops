@@ -1,9 +1,9 @@
 # Fixes the reason for Apache returning 500 error
 
 $wpfiles = [ '/var/www/html/.maintenance',
-	  '/var/www/html/wp-content/languages',
-	  '/var/www/html/wp-content/db.php',
-	  '/var/www/html/wp-content/object-cache.php']
+          '/var/www/html/wp-content/languages',
+          '/var/www/html/wp-content/db.php',
+          '/var/www/html/wp-content/object-cache.php']
 
 file { $wpfiles:
   ensure => 'present',
